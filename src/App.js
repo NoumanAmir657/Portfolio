@@ -1,25 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Navbar from "./components/Navbar";
+import HomePage from "./components/HomePage";
+import Education from "./components/Education"
+import Projects from "./components/Projects";
+import Skills from "./components/Skills"
+import { Routes, Route, BrowserRouter as Router } from 'react-router-dom';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+    <Router>
+    <div className='h-screen'>
+      <Navbar/>
 
+      <Routes>
+        <Route path="/" element={<HomePage/>}/>
+        <Route path="/skills" element={<Skills />} />
+        <Route path="/education" element={<Education />} />
+        <Route path="/projects" element={<Projects />} />
+      </Routes>
+      
+    </div>
+    </Router>
+  )
+}
 export default App;
+
+//Dumps
+//h-full w-full bg-gradient-to-r from-cyan-500 to-blue-500
+//rgba(39, 187, 245, 0.4)
+//backgroundColor: "#0d1137"
