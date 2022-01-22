@@ -4,7 +4,7 @@ import ParticleContainer from './ParticleBackground';
 
 const Skills = () => {
   return (
-    <div className="h-full bg-fixed" style={{backgroundImage: `linear-gradient(to right, rgba(13, 17, 55, 1), rgba(117, 19, 93, 0.8))`, fontFamily:"Architects Daughter"}}>
+    <div className="h-full bg-fixed" style={{backgroundImage: `linear-gradient(to right, rgba(13, 17, 55, 1), rgba(117, 19, 93, 1))`, fontFamily:"Architects Daughter"}}>
       <ParticleContainer/>
       <div style={{position: "absolute", top: 0, right: 0, left: 0, bottom: 0}}>
       <div className='animationFade text-center text-white font-semibold text-6xl pt-32' style={{textShadow: "4px 4px #0d1137"}}>
