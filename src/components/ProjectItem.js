@@ -9,8 +9,8 @@ const ProjectItem = ({name, description, techUsed, teammates, repoLink, imgs}) =
   return(
     <div className='mr-auto ml-auto w-3/4 mt-20 mb-5'>
         <div className='block justify-between lg:flex'>
-            <div className='w-1/2'>
-                <h1 className='text-5xl my-3' style={{textShadow: "4px 4px rgba(117, 19, 93, 0.73)"}}>{name}</h1>
+            <div className='md:w-1/2'>
+                <h1 className='text-5xl my-5' style={{textShadow: "4px 4px rgba(117, 19, 93, 0.73)"}}>{name}</h1>
                 
                 <p>{description}</p>
                 <br></br>
@@ -25,8 +25,8 @@ const ProjectItem = ({name, description, techUsed, teammates, repoLink, imgs}) =
                     )) 
                 }
             </div>
-            <div className='mx-auto lg:ml-10 mt-3 w-1/2'>
-                <img className='rounded-xl' src={imgs[counter]} alt={name} width="3000px" height='3000px'></img>
+            <div className='mx-auto lg:ml-10 mt-3 md:w-1/2'>
+                <img className='rounded-xl mt-6' src={imgs[counter]} alt={name} width="3000px" height='3000px'></img>
                 <div className='flex-row-reverse mt-1'>
                     <i onClick={handleNext} className="fa fa-long-arrow-right" aria-hidden="true" style={{fontSize: "25px", marginLeft: '94%'}}></i>
                 </div>

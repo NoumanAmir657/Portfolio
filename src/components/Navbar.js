@@ -5,7 +5,7 @@ const Navbar = () => {
   const [color, setColor] = useState(['#FFFFFF', '#FFFFFF', '#FFFFFF'])
 
   return (
-    <header className="md:sticky top-0 z-10 shadow-2xl border-b-2 border-pink-700" style={{backgroundImage: `linear-gradient(to right, rgba(13, 17, 55, 1), rgba(13, 17, 55, 1))`, fontFamily:"Architects Daughter"}}>
+    <header className="sticky top-0 z-10 shadow-2xl border-b-2 border-pink-700" style={{backgroundImage: `linear-gradient(to right, rgba(13, 17, 55, 1), rgba(13, 17, 55, 1))`, fontFamily:"Architects Daughter"}}>
       <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
         <div className="title-font font-medium text-white mb-4 md:mb-0 rounded-xl py-1" style={{backgroundColor: "#e52165"}} onClick={() => setColor(['#FFFFFF', '#FFFFFF', '#FFFFFF'])}>
           <Link to='/'  className="px-4 text-xl">
