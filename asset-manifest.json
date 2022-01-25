@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/%7BPortfolio%7D/static/css/main.0af66cd1.css",
-    "main.js": "/%7BPortfolio%7D/static/js/main.07461cd1.js",
-    "static/media/explore_1.PNG": "/%7BPortfolio%7D/static/media/explore_1.f5b164907c0c0718e97a.PNG",
-    "static/media/fbClone_1.PNG": "/%7BPortfolio%7D/static/media/fbClone_1.05e7b485ae57206f1f69.PNG",
-    "static/media/explore_6.PNG": "/%7BPortfolio%7D/static/media/explore_6.8cd7dbf80caef8586661.PNG",
-    "static/media/home.png": "/%7BPortfolio%7D/static/media/home.7d28d01d3c59d6f368c5.png",
-    "static/media/explore_2.PNG": "/%7BPortfolio%7D/static/media/explore_2.b532536b70c8895ac9ed.PNG",
-    "static/media/explore_3.PNG": "/%7BPortfolio%7D/static/media/explore_3.c3c77240b3c2ca7c6feb.PNG",
-    "static/media/explore_4.PNG": "/%7BPortfolio%7D/static/media/explore_4.5cb9f0aabf703f2fa175.PNG",
-    "static/media/explore_5.PNG": "/%7BPortfolio%7D/static/media/explore_5.6de9d25d415358b619f4.PNG",
-    "static/media/music_3.PNG": "/%7BPortfolio%7D/static/media/music_3.a700fa1012dad99d3e94.PNG",
-    "static/media/fbClone_3.PNG": "/%7BPortfolio%7D/static/media/fbClone_3.668f538f20c50775f56e.PNG",
-    "static/media/fbClone_2.PNG": "/%7BPortfolio%7D/static/media/fbClone_2.8684a25a1069601f9462.PNG",
-    "static/media/music_2.PNG": "/%7BPortfolio%7D/static/media/music_2.4208f33534cf873813c2.PNG",
-    "static/media/music_1.PNG": "/%7BPortfolio%7D/static/media/music_1.9e728c1eec590a11fa7c.PNG",
-    "index.html": "/%7BPortfolio%7D/index.html",
-    "main.0af66cd1.css.map": "/%7BPortfolio%7D/static/css/main.0af66cd1.css.map",
-    "main.07461cd1.js.map": "/%7BPortfolio%7D/static/js/main.07461cd1.js.map"
+    "main.css": "/Portfolio/static/css/main.0af66cd1.css",
+    "main.js": "/Portfolio/static/js/main.f00d2ce4.js",
+    "static/media/explore_1.PNG": "/Portfolio/static/media/explore_1.f5b164907c0c0718e97a.PNG",
+    "static/media/fbClone_1.PNG": "/Portfolio/static/media/fbClone_1.05e7b485ae57206f1f69.PNG",
+    "static/media/explore_6.PNG": "/Portfolio/static/media/explore_6.8cd7dbf80caef8586661.PNG",
+    "static/media/home.png": "/Portfolio/static/media/home.7d28d01d3c59d6f368c5.png",
+    "static/media/explore_2.PNG": "/Portfolio/static/media/explore_2.b532536b70c8895ac9ed.PNG",
+    "static/media/explore_3.PNG": "/Portfolio/static/media/explore_3.c3c77240b3c2ca7c6feb.PNG",
+    "static/media/explore_4.PNG": "/Portfolio/static/media/explore_4.5cb9f0aabf703f2fa175.PNG",
+    "static/media/explore_5.PNG": "/Portfolio/static/media/explore_5.6de9d25d415358b619f4.PNG",
+    "static/media/music_3.PNG": "/Portfolio/static/media/music_3.a700fa1012dad99d3e94.PNG",
+    "static/media/fbClone_3.PNG": "/Portfolio/static/media/fbClone_3.668f538f20c50775f56e.PNG",
+    "static/media/fbClone_2.PNG": "/Portfolio/static/media/fbClone_2.8684a25a1069601f9462.PNG",
+    "static/media/music_2.PNG": "/Portfolio/static/media/music_2.4208f33534cf873813c2.PNG",
+    "static/media/music_1.PNG": "/Portfolio/static/media/music_1.9e728c1eec590a11fa7c.PNG",
+    "index.html": "/Portfolio/index.html",
+    "main.0af66cd1.css.map": "/Portfolio/static/css/main.0af66cd1.css.map",
+    "main.f00d2ce4.js.map": "/Portfolio/static/js/main.f00d2ce4.js.map"
   },
   "entrypoints": [
     "static/css/main.0af66cd1.css",
-    "static/js/main.07461cd1.js"
+    "static/js/main.f00d2ce4.js"
   ]
 }
