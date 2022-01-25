@@ -26,11 +26,11 @@ const ProjectItem = ({name, description, techUsed, teammates, repoLink, imgs}) =
                 }
             </div>
             <div className='mx-auto lg:ml-10 mt-3 w-1/2'>
-                <img className='rounded-xl' src={imgs[counter]} width="3000px" height='3000px'></img>
+                <img className='rounded-xl' src={imgs[counter]} alt={name} width="3000px" height='3000px'></img>
                 <div className='flex-row-reverse mt-1'>
                     <i onClick={handleNext} className="fa fa-long-arrow-right" aria-hidden="true" style={{fontSize: "25px", marginLeft: '94%'}}></i>
                 </div>
-                <div className='text-center text-lg hover:text-blue-300'><a href={repoLink} target='_blank'><i className="devicon-github-original colored" style={{fontSize: "25px"}}></i> Repo Link</a></div>
+                <div className='text-center text-lg hover:text-blue-300'><a href={repoLink} target='_blank' rel="noreferrer"><i className="devicon-github-original colored" style={{fontSize: "25px"}}></i> Repo Link</a></div>
             </div>
         </div>
     </div>
