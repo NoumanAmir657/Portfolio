@@ -70,14 +70,6 @@ const particleConfig = {
     interactivity: {
       detect_on: "canvas",
       events: {
-        onhover: {
-          enable: true,
-          mode: "repulse"
-        },
-        onclick: {
-          enable: true,
-          mode: "push"
-        },
         resize: true
       },
       modes: {
