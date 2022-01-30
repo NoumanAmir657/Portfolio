@@ -1,8 +1,14 @@
-import React, {useState} from "react";
-import { Link } from "react-router-dom";
+import React, {useEffect, useState} from "react";
+import { Link, useLocation } from "react-router-dom";
 
 const Navbar = () => {
   const [color, setColor] = useState(['#FFFFFF', '#FFFFFF', '#FFFFFF'])
+  let location = useLocation()
+  
+  useEffect(() => {
+    if (location.pathname === '/Portfolio/projects'){setColor(['#e52165', '#FFFFFF', '#FFFFFF'])}
+    else if(location.pathname === '/Portfolio/skills'){setColor(['#FFFFFF', '#e52165', '#FFFFFF'])}
+  }, [location])
 
   return (
     <header className="sticky top-0 z-10 shadow-2xl border-b-2 border-pink-700" style={{backgroundImage: `linear-gradient(to right, rgba(13, 17, 55, 1), rgba(13, 17, 55, 1))`, fontFamily:"Architects Daughter"}}>
@@ -18,9 +24,6 @@ const Navbar = () => {
           </Link>
           <Link onClick={() => setColor(['#FFFFFF', '#e52165', '#FFFFFF'])} to="/Portfolio/skills" className="mr-5 text-white text-lg" style={{color: `${color[1]}`}}>
             Skills
-          </Link>
-          <Link onClick={() => setColor(['#FFFFFF', '#FFFFFF', '#e52165'])} to='/Portfolio/education' className="mr-5 text-white text-lg" style={{color: `${color[2]}`}}>
-            Education
           </Link>
         </nav>
       </div>
